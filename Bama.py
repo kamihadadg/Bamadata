@@ -47,7 +47,7 @@ chrome_driver.quit()
 
 # تبدیل لیست داده‌ها به DataFrame
 df = pd.DataFrame(data)
-
+df['SumPercentage'] = df.groupby('Car')['Percentage'].transform('sum')
 # چاپ اطلاعات DataFrame
 print(df)
 # ذخیره DataFrame به عنوان یک فایل CSV

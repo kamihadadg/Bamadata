@@ -1,10 +1,10 @@
 [
-    {"car_name": "bac/x3pro-specs-1456-1.5liter"},
-    {"car_name": "peugeot/207sd-specs-1168-at"},
-    {"car_name": "peugeot/207-specs-1167-381-at"},
-    {"car_name": "jac/s5-specs-1036-464-at1500"},
-    {"car_name": "tara/manual-specs-1371"},
-    {"car_name": "jac/j4-specs-1231"},
-    {"car_name": "alfaromeo/4c-specs-1177"}
+     {"car_name": "bac/x3pro-specs-1456-1.5liter"}
+    ,{"car_name": "peugeot/207sd-specs-1168-at"}
+    ,{"car_name": "peugeot/207-specs-1167-381-at"}
+    ,{"car_name": "jac/s5-specs-1036-464-at1500"}
+    ,{"car_name": "tara/manual-specs-1371"}
+    ,{"car_name": "jac/j4-specs-1231"}
+    ,{"car_name": "alfaromeo/4c-specs-1177"}
 
 ]
