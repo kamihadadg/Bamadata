@@ -160,5 +160,3 @@ cython_debug/
 #.idea/
 *.exe
 *.csv
-*.html
-*.css

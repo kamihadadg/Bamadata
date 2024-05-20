@@ -1,0 +1,36 @@
+/* اندازه فونت */
+body {
+    font-size: 14px;
+}
+
+/* استایل جدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+/* استایل سرتیترهای جدول */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* استایل ردیف‌های فرد جدول */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* استایل ردیف‌های زوج جدول */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* استایل داده‌های جدول */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
