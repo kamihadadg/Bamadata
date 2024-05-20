@@ -12,7 +12,7 @@ def get_data(page_index):
     driver.quit()
     return data_text
 
-def main():
+def scrape_car_price_list():
     result = []
     for i in range(1, 16):  # تغییر صفحه اینجا انجام می‌شود
         data = get_data(i)
@@ -32,8 +32,5 @@ def main():
 
     df = pd.DataFrame(items_list)
     df.to_csv('car_PriceList.csv', index=False, encoding='utf-8-sig')
-    # چاپ نتیجه
-    print(df)
 
-if __name__ == "__main__":
-    main()
+    return df
